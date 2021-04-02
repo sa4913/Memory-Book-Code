@@ -1,9 +1,4 @@
-
-
-
 // Please do not make changes to this file
-
-
 
 let docw = 800;
 let doch = 1200;
