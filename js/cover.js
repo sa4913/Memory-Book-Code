@@ -24,7 +24,7 @@ viz.append("rect")
 ;
 
 viz.append("image")
-  .attr("xlink:href", "JY-Logo.png")
+  .attr("link:href", "JY-Logo.png")
   .attr("x", 250)
   .attr("y", 450)
   .attr("width", 300)
