@@ -1,7 +1,7 @@
 //colors to be used
 
 let lemon = "#F5D367";
-let aqua = "#84D7DF";
+let aqua = "#5BD6FF";
 let flamingo = "#EF7C9B";
 let mint = "#A2D39B";
 let lavender = "#D593FF";
@@ -12,21 +12,21 @@ let viz = d3.select("#container")
     .attr("width", 800)
     .attr("height", 1200)
     .style("background-color", lemon)
-
 ;
 
 viz.append("rect")
-  .attr("x", 100)
-  .attr("y", 100)
-  .attr("height", 1000)
-  .attr("width", 600)
+  .attr("x", 50)
+  .attr("y", 50)
+  .attr("opacity", .75)
+  .attr("height", 1100)
+  .attr("width", 700)
   .attr("fill", "white")
 ;
 
 viz.append("image")
   .attr("link:href", "JY-Logo.png")
   .attr("x", 250)
-  .attr("y", 550)
+  .attr("y", 750)
   .attr("width", 300)
   .attr("height", 300)
 ;
@@ -41,12 +41,20 @@ viz.append("text")
 ;
 
 viz.append("text")
-.text("Memory Book")
+.text("Memory")
 .attr("font-family", "Candara")
-.attr("font-size", 100)
+.attr("font-size", 150)
 .attr("fill", lavender)
-.attr("x", 100)
-.attr("y", 400)
+.attr("x", 150)
+.attr("y", 375)
+;
+viz.append("text")
+.text("Book")
+.attr("font-family", "Candara")
+.attr("font-size", 150)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 500)
 ;
 // viz.append("text")
 // .text("Book")
@@ -58,10 +66,10 @@ viz.append("text")
 viz.append("text")
 .text("Spring 2021")
 .attr("font-family", "Candara")
-.attr("font-size", 125)
+.attr("font-size", 60)
 .attr("fill", lavender)
-.attr("x", 100)
-.attr("y", 1050)
+.attr("x", 260)
+.attr("y", 600)
 ;
 
 //

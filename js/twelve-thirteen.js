@@ -1,5 +1,5 @@
 let lemon = "#F5D367";
-let aqua = "#84D7DF";
+let aqua = "#5BD6FF";
 let flamingo = "#EF7C9B";
 let mint = "#A2D39B";
 let lavender = "#D593FF";
@@ -14,6 +14,15 @@ let viz = d3.select("#container")
     .attr("width", 1600)
     .attr("height", 1200)
     .style("background-color", lemon)
+;
+
+viz.append("rect")
+.attr("x", 0)
+.attr("y", 0)
+.attr("height", 1200)
+.attr("width", 1600)
+.attr("opacity", .75)
+.attr("fill", "white")
 ;
 
 viz.append("text")

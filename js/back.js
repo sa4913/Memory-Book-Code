@@ -1,7 +1,7 @@
 //colors to be used
 
 let lemon = "#F5D367";
-let aqua = "#84D7DF";
+let aqua = "#5BD6FF";
 let flamingo = "#EF7C9B";
 let mint = "#A2D39B";
 let lavender = "#D593FF";
