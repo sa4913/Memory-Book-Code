@@ -14,7 +14,15 @@ let viz = d3.select("#container")
     .attr("width", 1600)
     .attr("height", 1200)
     .style("background-color", lemon)
+;
 
+viz.append("text")
+.text("Events")
+.attr("font-family", "Candara")
+.attr("font-size", 200)
+.attr("fill", flamingo)
+.attr("x", 100)
+.attr("y", 200)
 ;
 // //left page, row 1
 // viz.append("rect")

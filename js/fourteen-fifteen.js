@@ -15,6 +15,15 @@ let viz = d3.select("#container")
     .attr("height", 1200)
     .style("background-color", lavender)
 ;
+
+viz.append("text")
+.text("Honorable Mentions")
+.attr("font-family", "Candara")
+.attr("font-size", 175)
+.attr("fill", aqua)
+.attr("x", 15)
+.attr("y", 200)
+;
 // //left page, row 1
 // viz.append("rect")
 //   .attr("x", column1)
