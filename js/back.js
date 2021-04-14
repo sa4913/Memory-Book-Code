@@ -40,3 +40,30 @@ viz.append("text")
 .attr("x", 15)
 .attr("y", 250)
 ;
+
+viz.append("text")
+.text("Isaac Schlager")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 500)
+;
+
+viz.append("text")
+.text("Nia Thomas")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 550)
+;
+
+viz.append("text")
+.text("Sinead Alexander")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 600)
+;
