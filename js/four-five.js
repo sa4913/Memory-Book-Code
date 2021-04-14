@@ -310,7 +310,7 @@ viz.append("rect")
   .attr("fill", "white")
 ;
 viz.append("image")
-  .attr("link:href", "StudentPhotos/4-5/YicenCai.jpeg")
+  .attr("link:href", "StudentPhotos/4-5/YicenCai502.jpeg")
   .attr("x", column2+right)
   .attr("y", 100)
   .attr("width", 150)
