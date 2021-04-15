@@ -67,3 +67,30 @@ viz.append("text")
 .attr("x", 250)
 .attr("y", 600)
 ;
+
+viz.append("text")
+.text("DJ Bobbs")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 650)
+;
+
+viz.append("text")
+.text("Jorge Barreno")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 700)
+;
+
+viz.append("text")
+.text("Abubakar Zahid")
+.attr("font-family", "Candara")
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", 250)
+.attr("y", 750)
+;

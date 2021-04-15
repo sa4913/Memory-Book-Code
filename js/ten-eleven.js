@@ -122,6 +122,7 @@ viz.append("rect")
 .attr("width", 160)
 .attr("fill", "purple")
 ;
+
 viz.append("rect")
 .attr("x", column2+right-5)
 .attr("y", 100-5)
@@ -201,6 +202,8 @@ viz.append("rect")
   .attr("width", 160)
   .attr("fill", "purple")
 ;
+
+
 //left page, row 1
 viz.append("rect")
   .attr("x", column1)
@@ -292,11 +295,18 @@ viz.append("rect")
 
 //right page, row 1
 viz.append("rect")
-  .attr("x", 875)
+  .attr("x", column1+right)
   .attr("y", 100)
   .attr("height", 150)
   .attr("width", 150)
   .attr("fill", "white")
+;
+viz.append("image")
+  .attr("link:href", "StudentPhotos/10-11/BingtingZhang1011.jpg")
+  .attr("x", column1+right)
+  .attr("y", 100)
+  .attr("width", 150)
+  .attr("height", 150)
 ;
 viz.append("rect")
   .attr("x", column2+right)

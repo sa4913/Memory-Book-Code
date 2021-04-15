@@ -14,7 +14,7 @@ let viz = d3.select("#container")
     .attr("width", 1600)
     .attr("height", 1200)
     .style("background-color", lemon)
-    
+
 ;
 
 viz.append("rect")
@@ -231,6 +231,20 @@ viz.append("rect")
   .attr("height", 150)
   .attr("width", 150)
   .attr("fill", "white")
+;
+viz.append("image")
+  .attr("link:href", "StudentPhotos/8-9/YihanXu805.jpg")
+  .attr("x", column4)
+  .attr("y", 100)
+  .attr("width", 150)
+  .attr("height", 150)
+;
+viz.append("text")
+.text("Yihan Xu")
+.attr("font-size", 40)
+.attr("fill", flamingo)
+.attr("x", column4)
+.attr("y", 300)
 ;
 //left page, row 2
 viz.append("rect")
