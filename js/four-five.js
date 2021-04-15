@@ -316,6 +316,14 @@ viz.append("image")
   .attr("width", 150)
   .attr("height", 150)
 ;
+viz.append("text")
+.text("Yicen Cai")
+.attr("font-size", 40)
+.attr("fill", flamingo)
+.attr("x", column2+right)
+.attr("y", 300)
+;
+
 viz.append("rect")
   .attr("x", column3+right)
   .attr("y", 100)

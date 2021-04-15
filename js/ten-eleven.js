@@ -308,6 +308,21 @@ viz.append("image")
   .attr("width", 150)
   .attr("height", 150)
 ;
+viz.append("text")
+.text("Bingting")
+.attr("font-size", 40)
+.attr("fill", aqua)
+.attr("x", column1+right)
+.attr("y", 300)
+;
+viz.append("text")
+.text("Zhang")
+.attr("font-size", 40)
+.attr("fill", aqua)
+.attr("x", column1+right+30)
+.attr("y", 340)
+;
+
 viz.append("rect")
   .attr("x", column2+right)
   .attr("y", 100)
