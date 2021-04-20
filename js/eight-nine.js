@@ -385,6 +385,21 @@ viz.append("rect")
   .attr("width", 150)
   .attr("fill", "white")
 ;
+viz.append("image")
+  .attr("link:href", "StudentPhotos/8-9/KelingWang910.jpeg")
+  .attr("x", column3+right)
+  .attr("y", 800)
+  .attr("width", 150)
+  .attr("height", 150)
+;
+viz.append("text")
+.text("Keling Wang")
+.attr("font-size", 40)
+.attr("fill", flamingo)
+.attr("x", column3+right)
+.attr("y", 1000)
+;
+
 viz.append("rect")
   .attr("x", column4+right)
   .attr("y", 800)

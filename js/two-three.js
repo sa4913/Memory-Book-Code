@@ -233,6 +233,21 @@ viz.append("rect")
   .attr("width", 150)
   .attr("fill", "white")
 ;
+viz.append("image")
+  .attr("link:href", "StudentPhotos/2-3/PhyllisYang205.jpg")
+  .attr("x", column3)
+  .attr("y", 100)
+  .attr("width", 150)
+  .attr("height", 150)
+;
+
+viz.append("text")
+.text("Phyllis Yang")
+.attr("font-size", 40)
+.attr("fill", aqua)
+.attr("x", column3)
+.attr("y", 300)
+;
 viz.append("rect")
   .attr("x", column4)
   .attr("y", 100)

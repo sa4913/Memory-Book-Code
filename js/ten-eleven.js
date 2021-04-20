@@ -271,6 +271,21 @@ viz.append("rect")
   .attr("width", 150)
   .attr("fill", "white")
 ;
+viz.append("image")
+  .attr("link:href", "StudentPhotos/10-11/VeraZhang1007.jpeg")
+  .attr("x", column1)
+  .attr("y", 800)
+  .attr("width", 150)
+  .attr("height", 150)
+;
+viz.append("text")
+.text("Vera Zhang")
+.attr("font-size", 40)
+.attr("fill", aqua)
+.attr("x", column1)
+.attr("y", 1000)
+;
+
 viz.append("rect")
   .attr("x", column2)
   .attr("y", 800)
