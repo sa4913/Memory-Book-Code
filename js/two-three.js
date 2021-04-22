@@ -211,13 +211,13 @@ viz.append("rect")
   .attr("width", 150)
   .attr("fill", "white")
 ;
-viz.append("text")
-.text("First Last")
-.attr("font-size", 40)
-.attr("fill", aqua)
-.attr("x", column4)
-.attr("y", 300)
-;
+// viz.append("text")
+// .text("First Last")
+// .attr("font-size", 40)
+// .attr("fill", aqua)
+// .attr("x", column4)
+// .attr("y", 300)
+// ;
 
 viz.append("rect")
   .attr("x", column2)
