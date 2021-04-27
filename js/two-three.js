@@ -8,6 +8,8 @@ let column2 = 250;
 let column3 = 425;
 let column4 = 600;
 let right = 800;
+let fontsName = "Tahoma";
+let fontsPage = "Impact";
 
 let viz = d3.select("#container")
   .append("svg")
@@ -247,6 +249,7 @@ viz.append("text")
 .attr("fill", aqua)
 .attr("x", column3)
 .attr("y", 300)
+.attr("font-family", fontsName)
 ;
 viz.append("rect")
   .attr("x", column4)
@@ -410,7 +413,7 @@ viz.append("text")
 .attr("fill", aqua)
 .attr("x", 50)
 .attr("y", 1150)
-
+.attr("font-family", fontsPage)
 ;
 //right
 viz.append("text")
@@ -419,6 +422,7 @@ viz.append("text")
 .attr("fill", aqua)
 .attr("x", 1225)
 .attr("y", 1150)
+.attr("font-family", fontsPage)
 ;
 
 // viz.append("rectangle")

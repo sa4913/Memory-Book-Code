@@ -27,7 +27,7 @@ viz.append("rect")
 
 viz.append("text")
 .text("Events")
-.attr("font-family", "Candara")
+.attr("font-family", "Impact")
 .attr("font-size", 200)
 .attr("fill", flamingo)
 .attr("x", 100)

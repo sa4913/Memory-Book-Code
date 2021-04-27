@@ -5,6 +5,7 @@ let aqua = "#5BD6FF";
 let flamingo = "#EF7C9B";
 let mint = "#A2D39B";
 let lavender = "#D593FF";
+let fonts = "Impact";
 
 
 let viz = d3.select("#container")
@@ -33,27 +34,27 @@ viz.append("image")
 
 viz.append("text")
 .text("Jinyang")
-.attr("font-family", "Candara")
+.attr("font-family", fonts)
 .attr("font-size", 150)
 .attr("fill", lavender)
-.attr("x", 180)
+.attr("x", 105)
 .attr("y", 250)
 ;
 
 viz.append("text")
 .text("Memory")
-.attr("font-family", "Candara")
+.attr("font-family", fonts)
 .attr("font-size", 150)
 .attr("fill", lavender)
-.attr("x", 150)
+.attr("x", 175)
 .attr("y", 375)
 ;
 viz.append("text")
 .text("Book")
-.attr("font-family", "Candara")
+.attr("font-family", fonts)
 .attr("font-size", 150)
 .attr("fill", lavender)
-.attr("x", 250)
+.attr("x", 340)
 .attr("y", 500)
 ;
 // viz.append("text")
@@ -65,11 +66,11 @@ viz.append("text")
 // ;
 viz.append("text")
 .text("Spring 2021")
-.attr("font-family", "Candara")
+.attr("font-family", "Courier")
 .attr("font-size", 60)
 .attr("fill", lavender)
-.attr("x", 260)
-.attr("y", 600)
+.attr("x", 210)
+.attr("y", 650)
 ;
 
 //

@@ -27,7 +27,7 @@ viz.append("rect")
 
 viz.append("text")
 .text("Honorable Mentions")
-.attr("font-family", "Candara")
+.attr("font-family", "Impact")
 .attr("font-size", 175)
 .attr("fill", aqua)
 .attr("x", 15)
