@@ -217,6 +217,7 @@ viz.append("text")
 .attr("fill", flamingo)
 .attr("x", 50)
 .attr("y", 1150)
+.attr("font-family", "Impact")
 ;
 //right
 viz.append("text")
@@ -225,6 +226,7 @@ viz.append("text")
 .attr("fill", flamingo)
 .attr("x", 1225)
 .attr("y", 1150)
+.attr("font-family", "Impact")
 ;
 
 // viz.append("rectangle")

@@ -30,7 +30,7 @@ viz.append("text")
 .attr("font-family", "Impact")
 .attr("font-size", 175)
 .attr("fill", aqua)
-.attr("x", 15)
+.attr("x", 45)
 .attr("y", 200)
 ;
 // //left page, row 1
@@ -217,6 +217,7 @@ viz.append("text")
 .attr("fill", aqua)
 .attr("x", 50)
 .attr("y", 1150)
+.attr("font-family", "Impact")
 ;
 //right
 viz.append("text")
@@ -225,6 +226,7 @@ viz.append("text")
 .attr("fill", aqua)
 .attr("x", 1225)
 .attr("y", 1150)
+.attr("font-family", "Impact")
 ;
 
 // viz.append("rectangle")
