@@ -61,6 +61,15 @@ viz.append("image")
   .attr("height", 280)
 ;
 
+viz.append("text")
+.text("Frosty Jives")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 450)
+.attr("y", 450)
+;
+
 viz.append("rect")
   .attr("x", 450)
   .attr("y", 700)
@@ -85,6 +94,42 @@ viz.append("image")
   .attr("y", 710)
   .attr("width", 280)
   .attr("height", 280)
+;
+
+viz.append("text")
+.text("Unearthing")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 50)
+.attr("y", 800)
+;
+
+viz.append("text")
+.text("Caffeine")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 75)
+.attr("y", 850)
+;
+
+viz.append("text")
+.text("featuring")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 100)
+.attr("y", 900)
+;
+
+viz.append("text")
+.text("Lattes")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 125)
+.attr("y", 950)
 ;
 
 viz.append("rect")
@@ -113,6 +158,24 @@ viz.append("image")
   .attr("height", 280)
 ;
 
+viz.append("text")
+.text("Mahjong")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 1300)
+.attr("y", 350)
+;
+
+viz.append("text")
+.text("Afternoon")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 1300)
+.attr("y", 400)
+;
+
 viz.append("rect")
   .attr("x", 1250)
   .attr("y", 500)
@@ -137,6 +200,15 @@ viz.append("image")
   .attr("y", 510)
   .attr("width", 280)
   .attr("height", 280)
+;
+
+viz.append("text")
+.text("Tie-Dye May")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 925)
+.attr("y", 675)
 ;
 
 viz.append("rect")
@@ -165,6 +237,23 @@ viz.append("image")
   .attr("height", 280)
 ;
 
+viz.append("text")
+.text("Paper")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 1300)
+.attr("y", 950)
+;
+
+viz.append("text")
+.text("Cutting")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 1350)
+.attr("y", 1000)
+;
 
 //
 //

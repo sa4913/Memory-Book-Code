@@ -60,6 +60,15 @@ viz.append("image")
   .attr("height", 280)
 ;
 
+viz.append("text")
+.text("Mirror Selfies")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", flamingo)
+.attr("x", 450)
+.attr("y", 400)
+;
+
 viz.append("rect")
   .attr("x", 450)
   .attr("y", 700)
@@ -86,6 +95,15 @@ viz.append("image")
   .attr("height", 280)
 ;
 
+viz.append("text")
+.text("Shanghai Nights")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", flamingo)
+.attr("x", 100)
+.attr("y", 900)
+;
+
 viz.append("rect")
   .attr("x", 900)
   .attr("y", 250)
@@ -110,6 +128,15 @@ viz.append("image")
   .attr("y", 260)
   .attr("width", 280)
   .attr("height", 280)
+;
+
+viz.append("text")
+.text("& Silly Photos")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", flamingo)
+.attr("x", 850)
+.attr("y", 675)
 ;
 
 viz.append("rect")
