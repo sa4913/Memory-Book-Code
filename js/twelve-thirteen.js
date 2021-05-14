@@ -26,12 +26,142 @@ viz.append("rect")
 ;
 
 viz.append("text")
-.text("Events")
+.text("What We'll Miss")
 .attr("font-family", "Impact")
 .attr("font-size", 200)
 .attr("fill", flamingo)
 .attr("x", 100)
 .attr("y", 200)
+;
+
+viz.append("rect")
+  .attr("x", 100)
+  .attr("y", 300)
+  .attr("height", 300)
+  .attr("width", 300)
+  .attr("opacity", 1)
+  .attr("fill", "yellow")
+;
+
+viz.append("rect")
+  .attr("x", 110)
+  .attr("y", 310)
+  .attr("height", 280)
+  .attr("width", 280)
+  .attr("opacity", 1)
+  .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/Mirror.jpg")
+  .attr("x", 110)
+  .attr("y", 310)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("rect")
+  .attr("x", 450)
+  .attr("y", 700)
+  .attr("height", 300)
+  .attr("width", 300)
+  .attr("opacity", 1)
+  .attr("fill", "yellow")
+;
+
+viz.append("rect")
+  .attr("x", 460)
+  .attr("y", 710)
+  .attr("height", 280)
+  .attr("width", 280)
+  .attr("opacity", 1)
+  .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/ShanghaiNight.JPG")
+  .attr("x", 460)
+  .attr("y", 710)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("rect")
+  .attr("x", 900)
+  .attr("y", 250)
+  .attr("height", 300)
+  .attr("width", 300)
+  .attr("opacity", 1)
+  .attr("fill", "yellow")
+;
+
+viz.append("rect")
+  .attr("x", 910)
+  .attr("y", 260)
+  .attr("height", 280)
+  .attr("width", 280)
+  .attr("opacity", 1)
+  .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/Yuhang.jpg")
+  .attr("x", 910)
+  .attr("y", 260)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("rect")
+  .attr("x", 1250)
+  .attr("y", 500)
+  .attr("height", 300)
+  .attr("width", 300)
+  .attr("opacity", 1)
+  .attr("fill", "yellow")
+;
+
+viz.append("rect")
+  .attr("x", 1260)
+  .attr("y", 510)
+  .attr("height", 280)
+  .attr("width", 280)
+  .attr("opacity", 1)
+  .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/SillyPhoto.jpg")
+  .attr("x", 1260)
+  .attr("y", 510)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("rect")
+  .attr("x", 900)
+  .attr("y", 750)
+  .attr("height", 300)
+  .attr("width", 300)
+  .attr("opacity", 1)
+  .attr("fill", "yellow")
+;
+
+viz.append("rect")
+  .attr("x", 910)
+  .attr("y", 760)
+  .attr("height", 280)
+  .attr("width", 280)
+  .attr("opacity", 1)
+  .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/Sagar.jpeg")
+  .attr("x", 910)
+  .attr("y", 760)
+  .attr("width", 280)
+  .attr("height", 280)
 ;
 // //left page, row 1
 // viz.append("rect")
@@ -212,7 +342,7 @@ viz.append("text")
 //page numbers
 //left
 viz.append("text")
-.text("12 | Jinyang Memory Book")
+.text("4 | Jinyang Memory Book")
 .attr("font-size", 30)
 .attr("fill", flamingo)
 .attr("x", 50)
@@ -221,7 +351,7 @@ viz.append("text")
 ;
 //right
 viz.append("text")
-.text("Jinyang Memory Book | 13")
+.text("Jinyang Memory Book | 5")
 .attr("font-size", 30)
 .attr("fill", flamingo)
 .attr("x", 1225)
