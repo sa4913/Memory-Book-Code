@@ -6,6 +6,11 @@ let flamingo = "#EF7C9B";
 let mint = "#A2D39B";
 let lavender = "#D593FF";
 
+let c1 = 30;
+let c2 = 480;
+let y1 = 400;
+let d = 75;
+
 let fonts = "Impact";
 
 let viz = d3.select("#container")
@@ -47,17 +52,17 @@ viz.append("text")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 500)
+.attr("x", c1)
+.attr("y", y1)
 ;
 
 viz.append("text")
-.text("Nia Thomas")
+.text("Yuma Kanazawa")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 550)
+.attr("x", c1)
+.attr("y", y1+d)
 ;
 
 viz.append("text")
@@ -65,26 +70,36 @@ viz.append("text")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 600)
+.attr("x", c1)
+.attr("y", y1+d*2)
 ;
 
 viz.append("text")
-.text("DJ Bobbs")
+.text("Alessandra Hallman")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 650)
+.attr("x", c1)
+.attr("y", y1+d*3)
 ;
+
+viz.append("text")
+.text("Corey Payones")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c1)
+.attr("y", y1+d*4)
+;
+
 
 viz.append("text")
 .text("Jorge Barreno")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 700)
+.attr("x", c1)
+.attr("y", y1+d*5)
 ;
 
 viz.append("text")
@@ -92,6 +107,132 @@ viz.append("text")
 .attr("font-family", fonts)
 .attr("font-size", 50)
 .attr("fill", lavender)
-.attr("x", 250)
-.attr("y", 750)
+.attr("x", c1)
+.attr("y", y1+d*6)
+;
+
+viz.append("text")
+.text("Edvins Dancigs")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c1)
+.attr("y", y1+d*7)
+;
+
+viz.append("text")
+.text("Wen Hui Kwok")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c1)
+.attr("y", y1+d*8)
+;
+
+viz.append("text")
+.text("Sarah Brooker")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c1)
+.attr("y", y1+d*9)
+;
+
+viz.append("text")
+.text("Alyanna Felix")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c1)
+.attr("y", y1+d*10)
+;
+
+viz.append("text")
+.text("Anna Farhan")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1)
+;
+
+viz.append("text")
+.text("DJ Bobbs")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d)
+;
+
+viz.append("text")
+.text("Adele Purdy")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*2)
+;
+
+viz.append("text")
+.text("Riya Shrestha")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*3)
+;
+
+viz.append("text")
+.text("Keling Wang")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*4)
+;
+
+viz.append("text")
+.text("Nia Thomas")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*5)
+;
+
+viz.append("text")
+.text("Kai Conahan")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*6)
+;
+
+viz.append("text")
+.text("Zane Fadul")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*7)
+;
+
+viz.append("text")
+.text("John Dopp")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*8)
+;
+
+viz.append("text")
+.text("HaEun Yoon")
+.attr("font-family", fonts)
+.attr("font-size", 50)
+.attr("fill", lavender)
+.attr("x", c2)
+.attr("y", y1+d*9)
 ;
