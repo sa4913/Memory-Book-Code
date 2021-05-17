@@ -52,6 +52,23 @@ viz.append("rect")
   .attr("fill", "white")
 ;
 
+viz.append("image")
+  .attr("link:href", "StudentPhotos/JYBaoan.jpg")
+  .attr("x", 110)
+  .attr("y", 310)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("text")
+.text("Public Safety")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 450)
+.attr("y", 460)
+;
+
 viz.append("rect")
   .attr("x", 450)
   .attr("y", 700)
@@ -68,6 +85,23 @@ viz.append("rect")
   .attr("width", 280)
   .attr("opacity", 1)
   .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/JYFrontDesk.jpg")
+  .attr("x", 460)
+  .attr("y", 710)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("text")
+.text("The Front Desk")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 100)
+.attr("y", 860)
 ;
 
 viz.append("rect")
@@ -88,6 +122,14 @@ viz.append("rect")
   .attr("fill", "white")
 ;
 
+viz.append("image")
+  .attr("link:href", "StudentPhotos/OutsideJinyang.jpg")
+  .attr("x", 910)
+  .attr("y", 260)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
 viz.append("rect")
   .attr("x", 1250)
   .attr("y", 500)
@@ -106,6 +148,23 @@ viz.append("rect")
   .attr("fill", "white")
 ;
 
+viz.append("image")
+  .attr("link:href", "StudentPhotos/JinyangLobby.jpg")
+  .attr("x", 1260)
+  .attr("y", 510)
+  .attr("width", 280)
+  .attr("height", 280)
+;
+
+viz.append("text")
+.text("& The Building")
+.attr("font-family", "Impact")
+.attr("font-size", 50)
+.attr("fill", aqua)
+.attr("x", 900)
+.attr("y", 660)
+;
+
 viz.append("rect")
   .attr("x", 900)
   .attr("y", 750)
@@ -122,6 +181,14 @@ viz.append("rect")
   .attr("width", 280)
   .attr("opacity", 1)
   .attr("fill", "white")
+;
+
+viz.append("image")
+  .attr("link:href", "StudentPhotos/JYCommon.jpg")
+  .attr("x", 910)
+  .attr("y", 760)
+  .attr("width", 280)
+  .attr("height", 280)
 ;
 
 // //left page, row 1
